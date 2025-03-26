@@ -1,0 +1,67 @@
+.navbar-brand{
+    font-family: Bodoni Moda;
+}
+
+body {
+    background-color: #ffffff; /* Light gray background */
+    font-family: Arial, sans-serif; /* Font style */
+}
+
+h1 {
+    color: #000000; /* Dark gray color for headings */
+    font-family: Bodoni Moda;
+}
+.btn{
+    background-color: #000000;
+    color: #ffffff;
+    outline:none;
+    border:none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out , border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn:hover{
+    background-color: #000000;
+}
+    
+.card {
+    border: 1px solid #dee2e6; /* Light border for cards */
+    border-radius: 0.5rem; /* Rounded corners */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+}
+
+footer {
+    background-color: #343a40; /* Dark gray background for footer */
+    color: white; /* White text color */
+    padding: 10px 0; /* Padding for footer */
+    position:fixed; /* Positioning for footer */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+}
+
+.navbar {
+    margin-bottom: 20px; /* Space below the navbar */
+}
+
+.nav-link {
+    color: #007bff; /* Bootstrap primary color for links */
+}
+
+.nav-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+.container {
+    margin-top: 30px; /* Space above the container */
+}
+
+.card-title {
+    font-size: 1.5rem; /* Larger font size for card titles */
+}
+
+.card-text {
+    font-size: 1rem; /* Standard font size for card text */
+}
